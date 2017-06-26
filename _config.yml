@@ -11,7 +11,7 @@ collections:
 description: 'Making the web great.
 
 '
-baseurl: ''
+baseurl: 
 url: http://mukama.github.io
 markdown: kramdown
 kramdown:
@@ -20,7 +20,7 @@ kramdown:
 sass:
   add_charset: true
   sass_dir: assets/sass
-  style: :compressed
+  style: compressed
 exclude:
 - Gemfile
 - Gemfile.lock
