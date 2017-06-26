@@ -1,33 +1,34 @@
-# Site settings
+---
 title: Caesar Mukama
-description: > # this means to ignore newlines until "baseurl:"
-  Making the web great.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://mukama.github.io" # the base hostname & protocol for your site
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+description: 'Making the web great.
 
-# Markdown settings
+'
+baseurl: ''
+url: http://mukama.github.io
 markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-
-# Sass settings
 sass:
   add_charset: true
   sass_dir: assets/sass
   style: :compressed
-
-# Build settings
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - package.json
-  - README.md
-  - CNAME
-  - node_modules
-  - assets/sass
-
-# Plugin settings
+- Gemfile
+- Gemfile.lock
+- package.json
+- README.md
+- CNAME
+- node_modules
+- assets/sass
 gems:
-  - jekyll-feed
-  - jekyll-sitemap
+- jekyll-feed
+- jekyll-sitemap
