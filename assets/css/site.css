@@ -1,0 +1,9 @@
+h1 {
+  font-family: 'La Belle Aurore', cursive;
+}
+h1 em {
+  display: block;
+  font-size: 20px;
+  font-family: Merriweather,Georgia,serif;
+  font-style: normal;
+}
